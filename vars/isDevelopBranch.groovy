@@ -1,5 +1,5 @@
-// vars/isDevelopBranch.groovy
+#!/usr/bin/env groovy
 
 def call(String branch) {
-    echo "Hello, ${branch}."
+    return "develop".equals(branch)
 }
