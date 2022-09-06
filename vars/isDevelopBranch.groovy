@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
-def call(steps, String branch) {
-    return steps.isDevelopBranchWrapper(branch)
+def call(String branch) {
+    return "develop".equals(branch)
 }
