@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
-def esDesarrollo(String branch) {
-    return "develop".equals(branch)
+def call(String branch) {
+    return "development".equals(branch)
 }
